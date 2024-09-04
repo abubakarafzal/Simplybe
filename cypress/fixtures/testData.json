@@ -1,0 +1,45 @@
+{
+  "name": "Abubakar",
+  "uploadFilePath": "images/test.png",
+  "alertFilePath": "server/alert-text.txt",
+  "userData": {
+    "email": "abubakar@example.com",
+    "firstName": "Abubakar",
+    "lastName": "Afzaal",
+    "password": "supersecurepassword123",
+    "birthDay": "26",
+    "birthMonth": "January",
+    "birthYear": "1992",
+    "gender": "M",
+    "marketingGlobal": true
+  },
+
+  "validUser": {
+    "username": "abubakarsdet777@gmail.com",
+    "password": "Ronaldo@700"
+  },
+  "invalidUser": {
+    "username": "",
+    "password": "yourPassword123"
+  },
+  "invalidData": {
+    "email": "abu.bk",
+    "firstName": "J",
+    "lastName": "3",
+    "day": "32",
+    "month": "13",
+    "year": "1899"
+  },
+  "dummyUser": {
+    "salutation": "Mr",
+    "firstName": "Abu",
+    "lastName": "bakar",
+    "day": "01",
+    "month": "01",
+    "year": "1990",
+    "phoneNumber": "07123456789",
+    "address": "123 Baker Street",
+    "email": "abubakar@example.com",
+    "password": "testPassword@"
+  }
+}

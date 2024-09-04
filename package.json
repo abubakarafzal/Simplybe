@@ -1,0 +1,22 @@
+{
+  "name": "simplybe-`automation",
+  "version": "1.0",
+  "description": "Assignment SimplyBe",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --browser chrome --headless",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "prettier": "prettier --write \"cypress/**/*.ts\"",
+    "cy:parallel": "cypress-parallel -s cypress:run -t 2 -d cypress/e2e -a '\"--browser chrome --headless\"'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "cypress": "^13.14.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-parallel": "^0.14.0",
+    "prettier": "^3.3.1",
+    "typescript": "^5.4.5"
+  }
+}
