@@ -3,10 +3,9 @@
   "version": "1.0",
   "description": "Assignment SimplyBe",
   "scripts": {
-    "cyp:open": "cypress open",
-    "cy:run": "cypress run --browser chrome --headed",
-    "cy:run:chrome": "cypress run --browser chrome",
-    "cy:run:product": "cypress run --headless --browser chrome --spec 'cypress/e2e/product.cy.ts'",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --browser chrome --headed",
+    "cypress:run:chrome": "cypress run --browser chrome",
     "prettier": "prettier --write \"cypress/**/*.ts\"",
     "cy:parallel": "cypress-parallel -s cypress:run -t 2 -d cypress/e2e -a '\"--browser chrome --headless\"'"
   },
